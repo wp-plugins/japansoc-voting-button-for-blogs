@@ -10,6 +10,8 @@ Allows your users to submit and vote for your posts on JapanSoc.com.
 
 == Description ==
 
+This plugins allows your readers to easily submit your blog posts to (JapanSoc.com)[http://www.japansoc.com], a social bookmarking website for everything Japan-related, and then automatically shows how many votes, or socs, your article has received from other JapanSoc'ers.
+
 = Usage: =
 
 * Insert either "&lt;!--japansocleft--&gt;" or "&lt;!--japansocright--&gt;" (without quotes) into your posts where you want the
