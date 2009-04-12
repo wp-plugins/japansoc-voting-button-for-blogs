@@ -26,10 +26,6 @@ the left/right alignment option directly in your post. The tag "&lt;!--japansoc-
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload the folder "japansoc" to your /wp-content/plugins/ folder
 2. Go to the Plugins section on your dashboard and activate the plugin "JapanSoc: Soc it!"
 
