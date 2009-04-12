@@ -22,7 +22,7 @@ button to appear using the HTML editor.
 1. This feature won't work in the Rich Text Editor. You have to use the HTML editor.
 
 1. The difference between 0.2 and the previous 0.1 version of this plugin is 
-the left/right alignment option directly in your post. The tag <!--japansoc-->" used in version 0.1 still works and defaults to the left.
+the left/right alignment option directly in your post. The tag "&lt;!--japansoc--&gt;" used in version 0.1 still works and defaults to the left.
 
 == Installation ==
 
