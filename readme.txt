@@ -1,5 +1,5 @@
 === JapanSoc.com Soc it! Plugin for Wordpress ===
-Contributors: yuanhao
+Contributors: nhrams, yuanhao
 Donate link: http://faq.japansoc.com/japansoc/sponsors
 Tags: japansoc, soc it, social bookmarking
 Requires at least: 2.0

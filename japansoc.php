@@ -1,7 +1,7 @@
-<?php 
+<?php
 /*
 Plugin Name: JapanSoc: Soc it!
-Plugin URI: http://www.japansoc.com
+Plugin URI: http://www.instant-ramen.net/2009/04/new-japansoc-it-button/
 Description: Allows your users to submit your posts to JapanSoc.com and vote.
 Version: 0.2
 Author: Nick Ramsay (thanks to Louis Ponder)
@@ -9,13 +9,13 @@ Author URI: http://www.japansoc.com
 */
 
 $japansocsite = "http://www.japansoc.com/evb/button.php";
-$float_button = "left"; 
-$button_margin_left = 0;   
+$float_button = "left";
+$button_margin_left = 0;
 $button_margin_right = 10;
 
-$float_button2 = "right"; 
-$button_margin_left2 = 10;   
-$button_margin_right2 = 0; 
+$float_button2 = "right";
+$button_margin_left2 = 10;
+$button_margin_right2 = 0;
 
 function add_japansoc()
 {
@@ -27,7 +27,7 @@ function add_japansoc()
 		return $before.$middle.$end;
 	}
 	else{
-		if(!is_search() && !is_archive() && !is_category() && !is_tag()) 
+		if(!is_search() && !is_archive() && !is_category() && !is_tag())
 			{
 				$script_bit = "<script type=\"text/javascript\"> submit_url = \"" . get_permalink($post->ID) . "\"; </script>";
 			}
@@ -49,7 +49,7 @@ function add_japansoc2()
 		return $before.$middle.$end;
 	}
 	else{
-		if(!is_search() && !is_archive() && !is_category() && !is_tag()) 
+		if(!is_search() && !is_archive() && !is_category() && !is_tag())
 			{
 				$script_bit = "<script type=\"text/javascript\"> submit_url = \"" . get_permalink($post->ID) . "\"; </script>";
 			}
@@ -116,7 +116,7 @@ function japansoc_button_check($content)
 		return str_replace('<!--japansocright-->', add_japansoc2(), $content);
 	}
 	else {
-		return $content;	
+		return $content;
 	}
 }
 add_filter('admin_footer', 'add_japansoc_quicktag');
