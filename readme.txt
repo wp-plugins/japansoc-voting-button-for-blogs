@@ -3,8 +3,8 @@ Contributors: nhrams, yuanhao
 Donate link: http://faq.japansoc.com/japansoc/sponsors
 Tags: japansoc, soc it, social bookmarking
 Requires at least: 2.0
-Tested up to: 2.7.1
-Stable tag: 0.2
+Tested up to: 2.9.1
+Stable tag: 0.3
 
 Allows your users to submit and vote for your posts on JapanSoc.com.
 
@@ -22,8 +22,9 @@ button to appear using the HTML editor.
 
 1. This feature won't work in the Rich Text Editor. You have to use the HTML editor.
 
-1. The difference between 0.2 and the previous 0.1 version of this plugin is 
+2. - The difference between 0.2 and the previous 0.1 version of this plugin is 
 the left/right alignment option directly in your post. The tag "&lt;!--japansoc--&gt;" used in version 0.1 still works and defaults to the left.
+   - V.3 uses a different url to make the plugin compatible with the latest version of JapanSoc. All previously linked buttons will still be okay.
 
 = Credits: =
 

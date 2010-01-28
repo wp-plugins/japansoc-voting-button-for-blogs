@@ -3,12 +3,12 @@
 Plugin Name: JapanSoc: Soc it!
 Plugin URI: http://www.instant-ramen.net/2009/04/new-japansoc-it-button/
 Description: Allows your users to submit your posts to JapanSoc.com and vote.
-Version: 0.2
+Version: 0.3
 Author: Nick Ramsay (thanks to Louis Ponder)
 Author URI: http://www.japansoc.com
 */
 
-$japansocsite = "http://www.japansoc.com/evb/button.php";
+$japansocsite = "http://www.japansoc.com/index.php?page=evb";
 $float_button = "left";
 $button_margin_left = 0;
 $button_margin_right = 10;
